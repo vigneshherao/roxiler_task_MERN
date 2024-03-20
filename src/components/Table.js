@@ -1,5 +1,7 @@
 import React from "react";
 import Option from "./Option";
+import Pagination from "./Pagination"
+import Statitics from "./Statitics";
 
 const Table = () => {
   return (
@@ -48,7 +50,9 @@ const Table = () => {
             </tr>
           </tbody>
         </table>
+        <Pagination/>
       </div>
+      <Statitics/>
     </div>
   );
 };
